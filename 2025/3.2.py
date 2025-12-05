@@ -21,7 +21,6 @@ for tempBank in f:
     charPositions.append(largestCharPosition)
     chars.append(largestChar)
     startingPoint = largestCharPosition + 1
-  print(chars)
   output += int("".join(chars))
 
   
