@@ -15,8 +15,6 @@ for x in range(dataWidth):
 
   # a new problem has started
   if(lines[dataHeight][x] != " "):
-    print("=",problemTally)
-    print()
     output += problemTally
     problemTally = 0
     firstNumberInProblem = True
@@ -41,8 +39,6 @@ for x in range(dataWidth):
         problemTally = int(num)
       else:
         problemTally *= int(num)
-    print(num, operator)
-
 
 output += problemTally
   
